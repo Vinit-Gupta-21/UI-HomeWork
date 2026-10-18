@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .night{
+            display: none;
+        }
+        h1{
+            position: absolute;
+            padding: 5px;
+        }
+        video{
+            width: 100%;
+        }
+        button{
+            color: rgb(255, 255, 255);
+            background-color: black;
+            margin: 5px;
+        }
+
+        @media(prefers-color-scheme: dark){
+            .night{
+                display: block;
+                color: white;
+            }
+            .day{
+                display: none;
+            }
+            button{
+                color: black;
+                background-color: white;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="day">Hello, Sunshine</h1>
+    <video class="day" src="video.mp4" autoplay muted loop></video>
+    <h1 class="night" >Hello, Moonlight</h1>
+    <video class="night" src="miles-morales-nighttime-hero.3840x2160.mp4" autoplay muted loop></video>
+    <button>Click</button>
+</body>
+</html>

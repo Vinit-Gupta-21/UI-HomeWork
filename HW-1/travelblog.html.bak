@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<center><h1>TravelX	</h1></center>	
+	<center>
+	<a href="home.html">Home</a>&nbsp;&nbsp;
+	<a href="contact.html">Contact us</a>&nbsp;&nbsp;
+	<a href="destinations.html">Destinations</a>&nbsp;&nbsp;
+	<a href="travelblog.html">Blog</a>&nbsp;&nbsp;
+	<a href="traveltips.html">Tips</a>&nbsp;&nbsp;
+	<a href="register.html">Register</a>&nbsp;&nbsp;
+	</center>
+	<hr>
+	<br>
+	<center><h2>My Unforgettable Trip to Paris</h2></center>
+
+    <center><p>
+        Paris is one of the most beautiful cities in the world.
+        It is famous for the Eiffel Tower, museums, and delicious food.
+        During my visit, I explored famous landmarks and learned about
+        French culture. The city was full of beauty and excitement.
+    </p></center>
+	
+	<center><p>
+        My favourite experience was visiting the Eiffel Tower and
+        enjoying the beautiful views of the city. I also enjoyed
+        walking through the streets and tasting local food.
+        It was a memorable travel experience.
+    </p></center>
+<br><br>
+    <center><blockquote>
+        Travel expands the mind.
+    </blockquote></center>
+	<br><br><br>
+    <center><iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Scxs7L0vhZ4"
+        title="Travel video"
+        allowfullscreen>
+    </iframe></center>
+	
+	<hr>
+
+<center>&copy; All Rights Reserved By TravelX.</center>
+ </body>
+</html>

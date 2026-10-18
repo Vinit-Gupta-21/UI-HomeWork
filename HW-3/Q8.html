@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(120deg, red,green,blue);
+            background-size: 500% 500%;
+            animation: gd ease 2s infinite;
+        }   
+        @keyframes gd {
+            0%,100%{
+                background-position: 0% 50%;
+            }       
+            50%{
+                background-position: 50%;
+            }  
+            
+        }
+        h2 {
+            text-align: center;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        form {
+            border: solid black 2px;
+            border-radius: 10px;
+            display: flex;
+            border-collapse: collapse;
+            padding: 10px;
+            box-shadow:2px 2px 5px rgb(9, 255, 38) ;
+            animation: fadeIn 1s ease-in;
+        }
+
+         td{
+            border:solid black 2px;
+        }
+        
+        input,textarea ,button{
+            border-radius: 10px;
+        }
+        input:focus{
+            border:2px solid red;
+            outline: none;
+            box-shadow: 0 0 8px lightblue; 
+        }
+
+        button:hover{
+            color: rgb(0, 42, 255);
+        }
+
+        input::placeholder{
+            font-style: italic;
+        }
+        
+        .req::after{
+            content: "*";
+            color:red;
+        }
+
+        input:hover{
+            transition: transform 2s ease;
+            transform: scale(1.2);
+        }
+        button:hover{
+            transition: transform 2s ease;
+            transform: scale(1.2);
+        }
+
+        @keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+    @media(max-width:600px){
+        table{
+            width: 100%;
+            padding: 0px;
+            font-size: small;
+        }
+    }
+
+
+    </style>
+</head>
+
+<body>
+    <h2>Feedback Form</h2>
+
+    <div class="container">
+        <form action="">
+            <table>
+                <tr>
+                    <td class="req">Name</td>
+                    <td><input type="text" placeholder="Enter Your Name"></td>
+                </tr>
+                <tr>
+                    <td class="req">Email</td>
+                    <td><input type="email" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td class="req">Phone Number </td>
+                    <td><input type="number" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Rating</td>
+                    <td><input type="radio" name="r" id="">1
+                        <input type="radio" name="r" id="">2
+                        <input type="radio" name="r" id="">3
+                        <input type="radio" name="r" id="">4
+                        <input type="radio" name="r" id="">5
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>Service Type </td>
+                    <td><select>
+                            <option value="Payment">Payment</option>
+                            <option value="Tracking">Tracking</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Comments</td>
+                    <td><textarea name="" id=""></textarea></td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><input type="checkbox" name="" id="c"><label class="req" for="c">I agree to be contacted</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><button>Submit</button></td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+</body>
+
+</html>

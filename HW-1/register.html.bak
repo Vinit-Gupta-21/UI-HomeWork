@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+	
+  </style>
+ </head>
+ <body>
+	<center><h2>Register</h2></center>
+	<center><form method="post" action="login.html" >
+		<table border=1>
+		<tr>
+			<td>Name</td>
+			<td><input type="text" name=""></td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td><input type="email" name=""></td>
+		</tr>
+		<tr>
+			<td>Phone</td>
+			<td><input type="number" name="" min="" max=""></td>
+		</tr>
+		<tr>
+			<td>Address</td>
+			<td><textarea name="" rows="" cols=""></textarea></td>
+		</tr>
+		<tr>
+			<td>Username</td>
+			<td><input type="text" name=""></td>
+		</tr>
+		<tr>
+			<td
+			>Password</td>
+			<td><input type="password" name=""></td>
+		</tr>
+		<tr>
+			<td><center><input type="submit"></center></td>
+			<td><center><input type="reset"></center></td>
+		</tr>
+		
+	</form></center>
+ </body>
+</html>

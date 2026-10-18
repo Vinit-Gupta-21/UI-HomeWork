@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <center><h1>TravelX	</h1></center>	
+	<center>
+	<a href="home.html">Home</a>&nbsp;&nbsp;
+	<a href="contact.html">Contact us</a>&nbsp;&nbsp;
+	<a href="destinations.html">Destinations</a>&nbsp;&nbsp;
+	<a href="travelblog.html">Blog</a>&nbsp;&nbsp;
+	<a href="traveltips.html">Tips</a>&nbsp;&nbsp;
+	<a href="register.html">Register</a>&nbsp;&nbsp;
+	</center>
+	<hr>
+	<br>
+		<center><table border=1>
+		<tr>
+			<th><center>Destination</center></th>
+			<th><center>Country</center></th>
+			<th><center>Best Time</center></th>
+		</tr>
+		<tr>
+			<td><center>Paris</center></td>
+			<td><center>France</center></td>
+			<td><center>Summer</center></td>
+		</tr>
+		<tr>
+			<td><center>Bali</center></td>
+			<td><center>Indonasia</center></td>
+			<td><center>Spring</center></td>
+		</tr>
+		<tr>
+			<td><center>Tokoyo</center></td>
+			<td><center>Japan</center></td>
+			<td><center>Spring</center></td>
+		</tr>
+		<tr>
+			<td><center>Dubai</center></td>
+			<td><center>UAE</center></td>
+			<td><center>Winter</center></td>
+		</tr>
+		<tr>
+			<td><center>Rome</center></td>
+			<td><center>Italy</center></td>
+			<td><center>Summer</center></td>
+		</tr>
+		</table></center>
+	<br><br>
+	<table border=1>
+	<tr>
+		<td><center><img src="paris.avif" width="300px" height="200px" border="0" alt=""></center></td>
+		<td><center><img src="bali.avif" width="300px" height="200px" border="0" alt=""></center></td>
+		<td><center><img src="tokoyo.avif" width="300px" height="200px" border="0" alt=""></center></td>
+		<td><center><img src="UAE.avif" width="300px" height="200px" border="0" alt=""></center></td>
+		<td><center><img src="rome.avif" width="300px" height="200px" border="0" alt=""></center></td>
+	</tr>
+	<tr>
+		<td><center><a href="https://en.wikipedia.org/wiki/Paris" target="_blank" >More about paris</a></center></td>
+		<td><center><a href="https://en.wikipedia.org/wiki/Bali" target="_blank">More about bali</a></center></td>
+		<td><center><a href="https://en.wikipedia.org/wiki/Tokyo" target="_blank">More about tokoyo</a></center></td>
+		<td><center><a href="https://en.wikipedia.org/wiki/United_Arab_Emirates" target="_blank">More about UAE</a></center></td>
+		<td><center><a href="https://en.wikipedia.org/wiki/Rome" target="_blank">More about rome</a></center></td>
+	</tr>
+	</table>
+	<br><br><br><br>
+	<hr>
+
+<center>&copy; All Rights Reserved By TravelX.</center>
+ </body>
+</html>

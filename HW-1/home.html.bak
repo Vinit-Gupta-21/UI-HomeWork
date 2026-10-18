@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <center><h1>TravelX	</h1></center>	
+	<center>
+	<a href="home.html">Home</a>&nbsp;&nbsp;
+	<a href="contact.html">Contact us</a>&nbsp;&nbsp;
+	<a href="destinations.html">Destinations</a>&nbsp;&nbsp;
+	<a href="travelblog.html">Blog</a>&nbsp;&nbsp;
+	<a href="traveltips.html">Tips</a>&nbsp;&nbsp;
+	<a href="register.html">Register</a>&nbsp;&nbsp;
+	</center>
+	<hr>
+	<br><br>
+	<center><img src="mainImg.jpg" width="" height="" border="0" alt="A beautiful travel destination"></center>
+	<center><h4>Explore the World</h4></center>
+	
+	<center><p>Welcome to Travel and Adventure, your ultimate destination for discovering the beauty of the world. Explore breathtaking landscapes, relaxing beaches, majestic mountains, and exciting cities across different countries. Whether you love adventurous activities, peaceful nature escapes, or exploring new cultures, there is a perfect destination waiting for you. Discover popular travel destinations such as Paris, Bali, and New Zealand while learning about their unique attractions, traditions, and experiences. Let us inspire your next journey, help you explore new horizons, and create unforgettable memories with every adventure.
+</p></center>
+	<br>
+	<center><h2>Popular Destinations</h2>
+	<ul>
+		<li>New Zealand</li>
+		<li>Paris</li>
+		<li>Bali</li>
+	<center></ul></center></center>
+	
+	
+<hr>
+
+<center>&copy; All Rights Reserved By TravelX.</center>
+
+ </body>
+</html>

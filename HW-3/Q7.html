@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        div {
+            max-width: 800px;
+            width: 90%;
+            margin: 50px auto;
+            border: 2px black solid;
+            box-shadow: 5px 5px 10px red;
+        }
+
+        table {
+            border: 2px black solid;
+            width: 100%;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 2px black solid;
+            padding: 10px;
+        }
+
+        th{
+            background-color: chocolate;
+        }
+        tr:nth-child(odd){
+            background-color: aqua;
+        }
+
+        .grade::after{
+            content:"🖊️";
+        }
+
+        body{
+            background: linear-gradient(120deg, red,green, blue , yellow);
+            background-size: 500% 500%;
+            animation: gd 2s ease infinite;
+        }
+
+        @keyframes gd {
+            0%,100%{
+                background-position: 0% 50%;
+            }       
+            50%{
+                background-position: 50%;
+            }    
+        }
+        tr:hover{
+            background-color: cadetblue;
+            color: rgb(244, 244, 244);
+            font-weight: bolder;
+        }
+        td:hover{
+            transition: transform 2s ease;
+            /* transform: scale(1.5); */
+            color: aqua;
+            /* transform: rotate(360deg); */
+            transform: skew(20deg);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Student Marks</h1>
+
+    <div>
+        <table>
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+                <th class="grade">Grade</th>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>vinit</td>
+                <td>Css</td>
+                <td>95</td>
+                <td class="grade">O</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>vinit</td>
+                <td>Css</td>
+                <td>95</td>
+                <td class="grade">O</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>vinit</td>
+                <td>Css</td>
+                <td>95</td>
+                <td class="grade">O</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>vinit</td>
+                <td>Css</td>
+                <td>95</td>
+                <td class="grade">O</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>vinit</td>
+                <td>Css</td>
+                <td>95</td>
+                <td class="grade">O</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
